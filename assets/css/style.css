@@ -78,7 +78,7 @@ header {
 #time {
   display: flex;
   font-size: 20px;
-  background-color: lightslategray;
+  background-color: #8a98b1;
   color: white;
   justify-content: center;
   align-items: center;
