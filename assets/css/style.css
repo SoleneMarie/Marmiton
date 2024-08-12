@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   background-color: #efefef;
-  overflow: hidden;
+  /*overflow: hidden;*/
   padding: 15px;
 }
 
@@ -48,7 +48,7 @@ h2 {
   font-weight: bold;
   color: #f3735f;
   margin-top: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -60,31 +60,47 @@ h3 {
 
 header {
   background-color: white;
-  border-bottom: 1px, solid, #f3735f;
-  height: 40px;
-  display: flex;
-  align-items: center;
+  border-bottom: 1px solid #f3735f;
+  height: 60px;
+  margin-top: 0px;
+  padding-top: 12 px;
 }
 .en-tete {
-  display: flex;
-  align-items: center;
   max-width: 1024px;
   box-sizing: content-box;
+  margin: auto;
+}
+#time-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#time {
+  display: flex;
+  font-size: 20px;
+  background-color: lightslategray;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 10px;
+  height: 40px;
 }
 
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 #logo {
-  height: 20px;
-  width: 150px;
+  height: 60px;
+  width: 180px;
   vertical-align: bottom;
   object-fit: contain;
 }
 #images {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 img {
@@ -92,4 +108,17 @@ img {
   height: 300px;
   object-fit: cover;
   object-position: center;
+}
+
+#baseline {
+  text-align: center;
+  font-size: 12px;
+  margin: 10px 0 20px 0;
+}
+li {
+  line-height: 20px;
+  list-style-type: disc;
+}
+#ref {
+  font-size: 10px;
 }
