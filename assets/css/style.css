@@ -15,12 +15,14 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #efefef;
   overflow: hidden;
+  padding: 15px;
 }
 
 .container {
   width: 1024px;
   margin: 0 auto;
   box-sizing: content-box;
+  margin-top: 50px;
 }
 
 section {
@@ -64,7 +66,10 @@ header {
 footer {
   text-align: center;
 }
-
+#logo {
+  height: 50px;
+  width: 120px;
+}
 #images {
   display: flex;
   flex-direction: row;
