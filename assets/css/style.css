@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   box-sizing: content-box;
   margin-top: 50px;
@@ -61,14 +61,25 @@ h3 {
 header {
   background-color: white;
   border-bottom: 1px, solid, #f3735f;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.en-tete {
+  display: flex;
+  align-items: center;
+  max-width: 1024px;
+  box-sizing: content-box;
 }
 
 footer {
   text-align: center;
 }
 #logo {
-  height: 50px;
-  width: 120px;
+  height: 20px;
+  width: 150px;
+  vertical-align: bottom;
+  object-fit: contain;
 }
 #images {
   display: flex;
